@@ -1,21 +1,18 @@
 ---
 title: "Some cool animal facts"
 author: "Philip Leftwich"
-output: html_document
+format: html
+execute:
+  echo: true
 ---
-
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-
 
 ##### A note on this project:
 
-## This project developed from Allison Horst's very cool intro to GitHub. 
+## This project developed from Allison Horst's very cool intro to GitHub.
 
-```
+### Cool animal fun facts
 
-
-### Cool animal fun facts {.tabset .tabset-fade}
+::: {.panel-tabset}
 
 #### SHARKS!!!
 
@@ -57,7 +54,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - They are not endangered, just very elusive
 - Closely related to raccoons
 
-###
+:::
 
 ----------
 **Disclaimer:** This document is only for R Markdown & GitHub teaching purposes
