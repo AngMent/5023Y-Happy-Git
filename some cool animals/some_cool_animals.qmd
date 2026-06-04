@@ -1,6 +1,6 @@
 ---
 title: "Some cool animal facts"
-author: "Philip Leftwich"
+author: "Angeliki"
 format: html
 execute:
   echo: true
